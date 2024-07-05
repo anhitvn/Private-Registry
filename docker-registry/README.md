@@ -146,7 +146,11 @@ cd /etc/nginx/
 htpasswd -Bc registry.passwd anhitvn
 ```
 
-Vậy là đã setup xong rồi đấy.
+Trong trường hợp bạn không dùng được lệnh htpasswd thì có lẽ nginx của bạn chưa có lib hỗ trợ tệp lệnh này. Hãy cài nó.
+
+```
+apt-get -y install apache2-utils
+```
 
 ## Test và push pull image đầu tiên
 
