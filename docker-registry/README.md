@@ -18,7 +18,7 @@ Bởi vì tôi sử dụng trên 2 vps riêng biệt nên sẽ có 2 ip cho 2 vp
 * Registry với ip: 192.168.1.3
   Port default của registry sẽ dùng là: 5000
 
-I. Docker Registry
+### I. Docker Registry
 
 Docker Registry version: 2
 
@@ -54,7 +54,7 @@ telnet <IP> 5000
 
 or check từ web browser: `http://IP:5000` nếu ra trang trắng thì đã ok
 
-II. Từ nginx Server
+### II. Từ nginx Server
 
 - Nginx version: 1.24.0
 
