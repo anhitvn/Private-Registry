@@ -2,8 +2,8 @@
 
 Có nhiều lựa chọn Triển khai Registry khác nhau, nhưng ở đây mình chỉ soạn lại Documents với:
 
-- Docker Registry
-- Harbor
+- Docker Registry: v2.0
+- Harbor: v2.11.0
 
 Nó sẽ tương ứng với 2 thư mục trong Repos này.
 Branch Main là những update mới nhất cho projects
@@ -16,6 +16,8 @@ CPU: 4
 Ram: 8Gb
 Disk: 125
 ```
+
+Lưu ý: Đây không phải là cấu hình tối thiểu.
 
 ### OS
 
